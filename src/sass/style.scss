@@ -1,0 +1,21 @@
+@import "base/variables";
+
+* {
+  font-family: MuseoModerno, sans-serif;
+}
+
+.container{
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/sales";
+@import "blocks/media";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carusel";
+@import "blocks/catalog";

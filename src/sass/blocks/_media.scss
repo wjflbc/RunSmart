@@ -1,0 +1,122 @@
+@media (max-width: 768px){
+  .promo{
+    .container{
+      .header{
+        &__logo{
+          width: 180px;
+        }
+        &__official{
+          font-size: 11px;
+          span{
+            font-size: 15px;
+          }
+        }
+        &__phone{
+          font-size: 15px;
+          font-weight: 500;
+        }
+        &__contacts{
+          button{
+            width: 135px;
+            height: 25px;
+          }
+        }
+      }
+    }
+    &__header{
+      font-size: 36px;
+    }
+    &__subheader{
+      font-size: 22px;
+    }
+  }
+  .sales{
+    .title{
+      font-size: 27px;
+    }
+    &__icon{
+      width: 160px;
+    }
+  }
+  .consultation{
+    .container{
+      .title{
+        &_left{
+          text-align: center;
+          font-size: 27px;
+        }
+      }
+    }
+    .consultation__descr{
+      text-align: center;
+      font-size: 17px;
+    }
+    .feed-form{
+      margin: 36px auto 0 auto;
+    }
+  }
+}
+@media (max-width: 576px){
+  .promo{
+    min-height: 550px;
+    .container{
+      .header{
+        &__official{
+          display: none;
+        }
+        &__phone{
+          font-size: 14px;
+        }
+        &__contacts{
+          button{
+            width: 125px;
+          }
+        }
+      }
+    }
+    &__wrapper{
+      align-items: flex-start;
+    }
+    &__header{
+      font-size: 32px;
+    }
+    &__subheader{
+      font-size: 19px;
+    }
+    &_icons{
+      display: none;
+    }
+  }
+
+.sales{
+  .title{
+    font-size: 20px;
+  }
+  &__icons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon{
+    width: 200px;
+    img{
+      margin-bottom: 25px;
+    }
+    span{
+      margin-bottom: 30px;
+      }
+    }
+  }
+  .consultation{
+    .container{
+      .title{
+        &_left{
+          font-size: 20px;
+        }
+      }
+    }
+    .consultation__descr{
+      font-size: 15px;
+    }
+  }
+}
