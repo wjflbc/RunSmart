@@ -1,0 +1,50 @@
+.response{
+  padding-bottom: 48px;
+
+  &__main-block{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__photo{
+    width: 169px;
+    min-height: 169px;
+  }
+
+  &__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text{
+    margin-top: 60px;
+    width: 680px;
+    margin-left: 60px;
+  }
+  &__name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0D0D0D;
+  }
+  &__luck{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #646464;
+  }
+  &__main-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #0D0D0D;
+    margin-top: 10px;
+  }
+}

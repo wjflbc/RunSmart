@@ -46,13 +46,36 @@
           font-size: 27px;
         }
       }
+      .consultation__descr{
+        text-align: center;
+        font-size: 17px;
+      }
+      .feed-form{
+        margin: 36px auto 0 auto;
+      }
     }
-    .consultation__descr{
-      text-align: center;
-      font-size: 17px;
+  }
+
+  .catalog{
+    .title{
+      font-size: 27px;
     }
-    .feed-form{
-      margin: 36px auto 0 auto;
+    .catalog__content{
+      justify-content: space-around;
+    }
+  }
+
+  .response{
+    .title{
+      font-size: 27px;
+    }
+    .response__photo{
+      width: 150px;
+      min-height: 150px;
+    }
+    .response__text{
+      width: 520px;
+      margin-top: 30px;
     }
   }
 }
@@ -114,9 +137,31 @@
           font-size: 20px;
         }
       }
+      .consultation__descr{
+        font-size: 15px;
+      }
     }
-    .consultation__descr{
-      font-size: 15px;
+  }
+
+  .catalog{
+    .title{
+      font-size: 20px;
     }
+    .catalog__tabs{
+      padding-right: 0;
+      margin-top: 30px;
+    }
+    .catalog__tab{
+      width: 90px;
+      font-size: 8px;
+    }
+  }
+
+  .carusel{
+    display: none;
+  }
+
+  .response{
+
   }
 }
