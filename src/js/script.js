@@ -11,18 +11,10 @@ $(document).ready(function(){
                     dots: true,
                     arrows: false
                 }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    dots: true,
-                    arrows: false,
-                    mobileFirst: true
-                }
             }
         ]
-
     });
+
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
             .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')

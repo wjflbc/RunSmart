@@ -55,6 +55,11 @@
       }
     }
   }
+  .carusel{
+    .carusel__inner{
+      width: 100%;
+    }
+  }
 
   .catalog{
     .title{
@@ -75,7 +80,7 @@
     }
     .response__text{
       width: 520px;
-      margin-top: 30px;
+      margin-left: 30px;
     }
   }
 }
@@ -144,6 +149,7 @@
   }
 
   .catalog{
+    padding-bottom: 120px;
     .title{
       font-size: 20px;
     }
@@ -162,6 +168,25 @@
   }
 
   .response{
-
+    .response__block{
+      display: block;
+    }
+    .response__photo{
+      display: block;
+      margin: 0 auto;
+    }
+    .response__text{
+      width: 100%;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .response__name{
+      margin-top: 10px;
+    }
+  }
+  .footer{
+    .footer__info{
+      width: 100%;
+    }
   }
 }
