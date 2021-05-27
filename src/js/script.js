@@ -21,9 +21,10 @@ $(document).ready(function(){
             .closest('div.container').find('div.catalog__content').removeClass('catalog__content_active').eq($(this).index()).addClass('catalog__content_active');
     });
 
-    function toggleSlide(item) {
-        $('item').each(function(i) {
-            $(this).on('click', function(e) {
+    function toggleSlide(item){
+        $('item').each(function (i){
+            $(this).on('click', function (e){
+                alert(121212);
                 e.preventDefault();
                 $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
                 $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
@@ -111,8 +112,12 @@ $(document).ready(function(){
 
     $("a[href^='#']").click(function(){
         const _href = $(this).attr("href");
-        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        // $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
+    });
+
+    $(function(){
+        new WOW().init();
     });
 });
 
